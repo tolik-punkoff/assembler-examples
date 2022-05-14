@@ -1,0 +1,8 @@
+npp_save
+cd "$(CURRENT_DIRECTORY)"
+N:\TASM\BIN\tasm32.exe /ml $(FILE_NAME)
+if $(EXITCODE) !=0 goto exit
+
+N:\TASM\BIN\tlink32 /Tpe /aa $(NAME_PART).obj,,,"N:\TASM\LIB\IMPORT32.LIB"
+
+:exit
