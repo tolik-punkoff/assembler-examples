@@ -137,6 +137,7 @@
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="a" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="i" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="n" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=":" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
             <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
