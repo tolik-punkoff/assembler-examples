@@ -1,0 +1,11 @@
+npp_save
+cd "$(CURRENT_DIRECTORY)"
+G:\masm32\bin\ml.exe /c /coff /IG:\masm32\include\ $(FILE_NAME)
+if $(EXITCODE) !=0 goto exit
+
+G:\masm32\bin\link.exe $(NAME_PART).obj  /SUBSYSTEM:WINDOWS /LIBPATH:G:\masm32\lib\
+if $(EXITCODE) !=0 goto exit
+
+$(NAME_PART).exe
+
+:exit
