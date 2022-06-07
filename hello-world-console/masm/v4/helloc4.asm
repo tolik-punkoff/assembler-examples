@@ -20,7 +20,7 @@ includelib user32.lib
 	
 	conshdr	db	'Hello, MASM32 World!',0
 	
-	mboxhdr	db	'Console call MsgBox',0
+	mboxhdr	db	'Console call MessageBox',0
 	mboxtxt	db	'Press OK to exit.',0
 
 .code
