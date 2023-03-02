@@ -10,3 +10,5 @@ hello-world-console - HelloWorld Win32 Console (MASM32)
 npp-exec-scripts - NppExec Scripts for assembler compilers
 
 npp-macro - Notepad++ macroses for creating MASM/TASM application template
+
+simple-crackme - Simple CrackMe
